@@ -5,6 +5,7 @@
 import AnimatedSection from './components/AnimatedSection';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import TrustBar from './components/TrustBar';
 import AuthorityStrip from './components/AuthorityStrip';
 import ProgramsOverview from './components/ProgramsOverview';
 import RestrictedResources from './components/RestrictedResources';
@@ -20,6 +21,7 @@ export default function App() {
       <main>
         {/* Homepage Sections */}
         <AnimatedSection><Hero /></AnimatedSection>
+        <TrustBar />
         <AnimatedSection><AuthorityStrip /></AnimatedSection>
         <AnimatedSection><ProgramsOverview /></AnimatedSection>
         <AnimatedSection><RestrictedResources /></AnimatedSection>

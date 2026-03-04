@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
-import blurredLinesCover from "@/assets/blurred-lines-cover.jpg";
+import blurredLinesCover from "@/assets/blurred-lines-cover.png";
 import echoEffectCover from "@/assets/echo-effect-cover.png";
 
 export default function PublishedWorks() {
@@ -20,9 +20,24 @@ export default function PublishedWorks() {
             <p className="text-slate-600 mb-6">
               "Blurred Lines" examines the intersection of high-stakes leadership and the personal toll of sustained pressure. Designed for executives and operators, this work bypasses theory to deliver actionable frameworks for maintaining clarity when the consequences of failure are absolute.
             </p>
-            <Button asChild size="lg" className="font-bold uppercase tracking-wider">
-              <a href="https://a.co/d/0a36RyY4" target="_blank" rel="noopener noreferrer">Get the Book</a>
-            </Button>
+            
+            <div className="mb-8 border-l-4 border-deep-navy pl-6 py-2 italic text-slate-700 bg-slate-100/50">
+              <p className="text-sm md:text-base leading-relaxed">
+                "Blurred Lines follows two veteran police officers as they confront the psychological toll of years spent navigating violence, trauma and moral conflict... a powerful account of survival, recovery and the courage to speak openly about the unseen injuries of policing."
+              </p>
+              <footer className="mt-3 text-xs md:text-sm font-medium not-italic text-slate-500">
+                — Joanna Putman, Associate Editor, <span className="font-bold text-deep-navy">Police1</span>.
+              </footer>
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-deep-navy flex items-center gap-1">
+                ⭐ Police1 Recommended Read for 2025
+              </span>
+              <Button asChild size="lg" className="font-bold uppercase tracking-wider">
+                <a href="https://a.co/d/0a36RyY4" target="_blank" rel="noopener noreferrer">Get the Book</a>
+              </Button>
+            </div>
           </div>
         </div>
 
