@@ -69,9 +69,14 @@ export default function ContactPage() {
               <Textarea id="message" name="message" rows={5} placeholder="Nature of your inquiry..." required />
               <ValidationError prefix="Message" field="message" errors={state.errors} className="text-red-500 text-xs" />
 
-              <Button type="submit" size="lg" disabled={state.submitting} className="w-full font-bold uppercase tracking-wider">
-                {state.submitting ? 'Submitting...' : 'Start the Conversation'}
-              </Button>
+              <Button
+  type="submit"
+  size="lg"
+  disabled={state.submitting}
+  onClick={() => (window as any).gtag('event','contact_form_submitted')}
+>
+  {state.submitting ? 'Submitting...' : 'Start the Conversation'}
+</Button>
             </form>
           </div>
         </div>
