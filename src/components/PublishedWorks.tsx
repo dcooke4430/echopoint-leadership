@@ -34,12 +34,7 @@ export default function PublishedWorks() {
               <span className="text-[10px] font-bold uppercase tracking-widest text-deep-navy flex items-center gap-1">
                 ⭐ Police1 Recommended Read for 2025
               </span>
-              <a
-  href="/EchoPoint_5Signs_v4.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex items-center justify-center rounded-md bg-deep-navy px-6 py-3 text-sm font-bold uppercase tracking-wider text-white hover:opacity-90"
->
+              <a href="/EchoPoint_5Signs_v4.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-md bg-deep-navy px-6 py-3 text-sm font-bold uppercase tracking-wider text-white">
   Download the 5 Signs Guide
 </a>
             </div>
