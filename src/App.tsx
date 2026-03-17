@@ -8,6 +8,7 @@ import Hero from './components/Hero';
 import TrustBar from './components/TrustBar';
 import AuthorityStrip from './components/AuthorityStrip';
 import ProgramsOverview from './components/ProgramsOverview';
+import CultureDiagnostic from './components/CultureDiagnostic';
 import RestrictedResources from './components/RestrictedResources';
 import PublishedWorks from './components/PublishedWorks';
 import ProgramsPage from './components/ProgramsPage';
@@ -24,17 +25,15 @@ export default function App() {
         <TrustBar />
         <AnimatedSection><AuthorityStrip /></AnimatedSection>
         <AnimatedSection><ProgramsOverview /></AnimatedSection>
-        <AnimatedSection><RestrictedResources /></AnimatedSection>
+        <AnimatedSection><CultureDiagnostic /></AnimatedSection>
         <AnimatedSection><PublishedWorks /></AnimatedSection>
 
-        {/* Page Blueprints (as sections) */}
-        <div className="preview-divider" id="programs-page">
-          --- Programs Page Blueprint ---
-        </div>
+        <div id="programs-page" />
         <AnimatedSection><ProgramsPage /></AnimatedSection>
-        <div className="preview-divider" id="contact-page">
-          --- Contact Page Blueprint ---
-        </div>
+        
+        <AnimatedSection><RestrictedResources /></AnimatedSection>
+
+        <div id="contact-page" />
         <AnimatedSection><ContactPage /></AnimatedSection>
       </main>
       <Footer />
