@@ -34,9 +34,13 @@ export default function PublishedWorks() {
               <span className="text-[10px] font-bold uppercase tracking-widest text-deep-navy flex items-center gap-1">
                 ⭐ Police1 Recommended Read for 2025
               </span>
-              <a href="/EchoPoint_5Signs_v4.pdf" target="_blank" rel="noopener noreferrer">
-  Download the 5 Signs Guide
-</a>
+              <div style={{ background: 'yellow', color: 'black', padding: '12px' }}>
+  TEST LINK BLOCK
+  <br />
+  <a href="/EchoPoint_5Signs_v4.pdf" target="_blank" rel="noopener noreferrer">
+    OPEN PDF NOW
+  </a>
+</div>
             </div>
           </div>
         </div>
