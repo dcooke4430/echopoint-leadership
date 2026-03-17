@@ -35,8 +35,10 @@ export default function PublishedWorks() {
                 ⭐ Police1 Recommended Read for 2025
               </span>
               <Button asChild size="lg" className="font-bold uppercase tracking-wider">
-                <a href="https://a.co/d/0a36RyY4" target="_blank" rel="noopener noreferrer">Get the Book</a>
-              </Button>
+  <a href="/EchoPoint_5Signs_v4.pdf" target="_blank" rel="noopener noreferrer">
+    Download the 5 Signs Guide
+  </a>
+</Button>
             </div>
           </div>
         </div>
