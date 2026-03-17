@@ -15,9 +15,14 @@ export default function CultureDiagnostic() {
             <Button 
               asChild 
               size="lg" 
-              className="bg-white text-deep-navy hover:bg-slate-100 font-bold uppercase tracking-widest rounded-none h-16 px-12 text-lg transition-all hover:scale-105 active:scale-95 shadow-2xl"
+              className="bg-white text-deep-navy hover:bg-slate-100 font-bold uppercase tracking-widest rounded-none h-16 px-12 text-lg transition-all hover:scale-105 active:scale-95 shadow-2xl cursor-pointer"
             >
-              <a href="/diagnostic.pdf" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="/diagnostic.pdf" 
+                download="EchoPoint-Leadership-Culture-Diagnostic.pdf"
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 Download the Diagnostic
               </a>
             </Button>
